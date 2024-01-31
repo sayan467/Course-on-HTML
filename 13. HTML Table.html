@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+
+<body>
+    <!-- <table>
+        //table content
+    </table> -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Education</th>
+        </tr>
+        <tr>
+            <td>Sayan</td>
+            <td>18</td>
+            <td>Undergraduate</td>
+        </tr>
+    </table>
+
+    <!-- rowspan & colspan -->
+    <p>See the <a href="13. colspan-rowspan.png">rowspan and colspan</a></p>
+    <table>
+        <tr>
+            <td colspan="2">Colspan</td>
+        </tr>
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>Row 1, col 1</td>
+            <td rowspan="2">Rowspan</td>
+        </tr>
+        <tr>
+            <td>Row 2, col 1</td>
+        </tr>
+    </table>
+
+    <!-- adding the caption -->
+    <table>
+        <caption>Websites</caption>
+    </table>
+
+    <!-- table header and footer -->
+    <table>
+        <thead>
+            the header
+        </thead>
+        <tfoot>
+            the footer
+        </tfoot>
+        <tbody>
+            body content
+        </tbody>
+    </table>
+
+    <!-- column group -->
+    <table>
+        <colgroup>
+            <col style="background-color: cornflowerblue;">
+        </colgroup>
+    </table>
+
+    sample table
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sec</th>
+                <th>Roll</th>
+                <th>Enrollment no</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mahi</td>
+                <td>D</td>
+                <td>23</td>
+                <td>568849505</td>
+            </tr>
+            <tr>
+                <td>Sakshi</td>
+                <td>E</td>
+                <td>26</td>
+                <td>678849505</td>
+            </tr>
+            <tr>
+                <td>Ziva</td>
+                <td>F</td>
+                <td>28</td>
+                <td>568868505</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total stu</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
