@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- 1.text input -->
+    <input type="text" name="username" placeholder="Enter the username">
+
+    <!-- 2.password input -->
+    <input type="password" name="password" placeholder="Enter your password">
+
+    <!-- 3.radio buttons -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <!-- 4.checkbox -->
+    <input type="checkbox" id="student" name="student" value="yes">
+    <label for="student">Are you a student</label>
+
+    <!-- 5.textarea element -->
+    <textarea name="comment" id="comment" cols="30" rows="10">Enter your comment</textarea>
+
+    <!-- 6.select element -->
+    <select name="stream">
+        <option value="cse">CSE</option>
+        <option value="ece">ECE</option>
+        <option value="it">IT</option>
+    </select>
+
+    <!-- 7.action and method
+    this attribute specifies the URL where the form data will be sent after submission(action) & how it will be sent by get or post(method) -->
+    <form action="he-header-logo.svg" method="post"></form>
+
+    <!-- 8.required attribute
+    it makes the field mandatory to fillup -->
+    <input type="text" required>
+
+    <!-- 9.autofocus attribute
+    focus the cursor on the field after page is reloaded -->
+    <input type="text" autofocus>
+
+    <!-- 10.pattern attribute -->
+    <input type="text" pattern="[a-zA-z0-9]+">
+</body>
+</html>
